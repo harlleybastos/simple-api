@@ -1,0 +1,21 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "main": "source/server.ts",
+  "scripts": {
+    "build": "rm -rf build/ && prettier --write source/ && tsc"
+  },
+  "repository": "https://github.com/harlleybastos/simple-api.git",
+  "author": "Harlley Bastos <harlleybastos@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/dotenv": "^8.2.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11"
+  }
+}
